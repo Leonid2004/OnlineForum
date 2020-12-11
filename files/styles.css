@@ -1,0 +1,5 @@
+.testGradientContainer {
+	width: 95vw;
+	height: 3vh;
+	background: linear-gradient(55deg, #a7ff01, #faff00,#ffc603);
+}
