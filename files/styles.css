@@ -1,5 +1,19 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+.page {
+	display: grid;
+	width: 70%;
+	height: 2000px;
+	background-color: grey;
+	grid-template-columns: 10% 80% 10%;
+	
+}
+
 .testGradientContainer {
-	width: 95vw;
+	width: 95%;
 	height: 3vh;
 	background: linear-gradient(55deg, #a7ff01, #faff00,#ffc603);
+	grid-column-start: 2
 }
