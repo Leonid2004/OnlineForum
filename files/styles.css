@@ -87,3 +87,58 @@ font-family: arial;
 	grid-column-start: 2;
 	grid-row-start: 3;
 }
+@media screen and (max-width: 508px) {
+#TechnologyButton {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 14px;
+}
+#TechnologyButton:hover {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 16px;
+}
+#WarButton {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 14px;
+}
+
+#SportButton{
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 14px;
+}
+
+#BLogsButton {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 14px;
+}
+
+#WarButton:hover {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 16px;
+}
+
+#SportButton:hover{
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 16px;
+}
+
+#BLogsButton:hover {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 16px;
+}
+}
