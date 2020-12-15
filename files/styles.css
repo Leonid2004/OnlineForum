@@ -5,10 +5,11 @@ body {
 }
 .page {
 	display: grid;
-	width: 75%;
+	width: 90%;
 	height: 2000px;
 	background-color: rgb(226, 217, 217, 0.18);;
 	grid-template-columns: 10% 80% 10%;
+	grid-template-rows: 4% 5% 10% 50% 30% 40%;
 	
 }
 
@@ -16,9 +17,10 @@ body {
 	display: flex;
 	flex-direction: row;
 	width: 95%;
-	height: 10vh;
+	max-height: 9vh;
 	background: linear-gradient(55deg, #a7ff01, #faff00,#ffc603);
 	grid-column-start: 2;
+	grid-row-start: 1;
 	align-items: center;
 	justify-content: space-around;
 }
@@ -75,4 +77,13 @@ text-decoration: none;
 color: rgb(45, 71, 35);
 font-weight: bold;
 font-size: 26px;
+}
+.HotNews {
+grid-column-start: 2;
+grid-row-start: 2;
+font-family: arial;
+}
+.HotTechnologies {
+	grid-column-start: 2;
+	grid-row-start: 3;
 }
