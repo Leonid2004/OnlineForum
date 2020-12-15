@@ -22,10 +22,7 @@ body {
 	align-items: center;
 	justify-content: space-around;
 }
-.MB {
-	border: 2px red solid;
-	border-collapse: separate;
-}
+
 #TechnologyButton {
 text-decoration: none;
 color: rgb(45, 71, 35);
