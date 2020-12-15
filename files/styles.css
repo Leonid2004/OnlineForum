@@ -29,7 +29,12 @@ color: rgb(45, 71, 35);
 font-weight: bold;
 font-size: 20px;
 }
-
+#TechnologyButton:hover {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 26px;
+}
 #WarButton {
 text-decoration: none;
 color: rgb(45, 71, 35);
@@ -49,4 +54,25 @@ text-decoration: none;
 color: rgb(45, 71, 35);
 font-weight: bold;
 font-size: 20px;
+}
+
+#WarButton:hover {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 26px;
+}
+
+#SportButton:hover{
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 26px;
+}
+
+#BLogsButton:hover {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 26px;
 }
