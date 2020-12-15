@@ -1,6 +1,7 @@
 body {
 	display: flex;
 	justify-content: center;
+	background-color: rgb(229, 250, 25,0.15)
 }
 .page {
 	display: grid;
@@ -11,9 +12,44 @@ body {
 	
 }
 
-.testGradientContainer {
+.theHeader {
+	display: flex;
+	flex-direction: row;
 	width: 95%;
-	height: 5vh;
+	height: 10vh;
 	background: linear-gradient(55deg, #a7ff01, #faff00,#ffc603);
-	grid-column-start: 2
+	grid-column-start: 2;
+	align-items: center;
+	justify-content: space-around;
+}
+.MB {
+	border: 2px red solid;
+	border-collapse: separate;
+}
+#TechnologyButton {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 20px;
+}
+
+#WarButton {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 20px;
+}
+
+#SportButton{
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 20px;
+}
+
+#BLogsButton {
+text-decoration: none;
+color: rgb(45, 71, 35);
+font-weight: bold;
+font-size: 20px;
 }
