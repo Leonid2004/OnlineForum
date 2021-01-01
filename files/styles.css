@@ -1,13 +1,13 @@
 body {
 	display: flex;
 	justify-content: center;
-	background-color: rgb(229, 250, 25,0.15)
+	background-color: rgba(229, 250, 25,0.15);
 }
 .page {
 	display: grid;
 	width: 90%;
 	height: 2000px;
-	background-color: rgb(226, 217, 217, 0.18);;
+	background-color: rgba(226, 217, 217, 0.18);;
 	grid-template-columns: 10% 80% 10%;
 	grid-template-rows: 4% 5% 10% 50% 30% 40%;
 	
@@ -151,3 +151,30 @@ font-size: 16px;
 	height: 9vh;
 }
 
+#lay {
+    display: flex;
+    border: 4px grey solid;
+    max-width: 800px;
+    height: 125px;
+    flex-direction: row;
+    margin-top: 25px;
+    background-color: rgba(226, 217, 217, 0.18);
+    font-size: 20px;
+}
+
+
+#lay:hover {
+    display: flex;
+    border: 5px black solid;
+    max-width: 800px;
+    height: 125px;
+    flex-direction: row;
+    margin-top: 25px;
+    background-color: rgba(226, 217, 217, 0.18);
+    font-size: 20px;
+}
+
+#information {
+    align-self: center;
+    margin-left: 5%;
+}
