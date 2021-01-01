@@ -147,8 +147,8 @@ font-size: 16px;
 .LK {
 	grid-row-start:1;
 	grid-column-start: 3;
-	max-width: 65px;
-	max-height: 9vh;
+	width: 65px;
+	height: 9vh;
 }
 
 #lay {
@@ -177,5 +177,4 @@ font-size: 16px;
 #information {
     align-self: center;
     margin-left: 5%;
-    color: black;
 }

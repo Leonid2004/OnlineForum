@@ -1,6 +1,6 @@
 Vue.component("the-lay",{
     props: ["product","theinfo"],
-    template: "<a href = '#' style = 'text-decoration: none'><div id='lay'><img :src='product' width='125px' height='125px'><span id='information'>{{theinfo}}</span></div></a>",
+    template: "<div id='lay'><img :src='product' width='125px' height='125px'><span id='information'>{{theinfo}}</span></div>",
 
 })
 
@@ -14,5 +14,3 @@ let myVue = new Vue ({
 
          }
 })
-
-
