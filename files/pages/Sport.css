@@ -10,7 +10,7 @@ body {
 	background-color: rgba(226, 217, 217, 0.18);;
 	grid-template-columns: 10% 80% 10%;
 	grid-template-rows: 4% 5% 10% 50% 30% 40%;
-	
+
 }
 
 .theHeader {
@@ -82,7 +82,6 @@ font-size: 26px;
 grid-column-start: 2;
 grid-row-start: 2;
 font-family: arial;
-	margin-top: 5%;
 }
 .HotTechnologies {
 	grid-column-start: 2;
@@ -179,9 +178,4 @@ font-size: 16px;
     align-self: center;
     margin-left: 5%;
     color: black;
-}
-.camera {
-	grid-column-start: 2;
-	grid-row-start: 2;
-	/*margin-left: 40vw;*/
 }
