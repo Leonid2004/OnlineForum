@@ -1,7 +1,10 @@
 body {
 	display: flex;
 	justify-content: center;
-	background-color: rgba(229, 250, 25,0.15);
+	background-image: url(../../images/warBackground.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 .page {
 	display: grid;
@@ -78,11 +81,7 @@ color: rgb(45, 71, 35);
 font-weight: bold;
 font-size: 26px;
 }
-.HotNews {
-grid-column-start: 2;
-grid-row-start: 2;
-font-family: arial;
-}
+
 .HotTechnologies {
 	grid-column-start: 2;
 	grid-row-start: 3;

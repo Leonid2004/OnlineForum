@@ -1,13 +1,15 @@
 body {
 	display: flex;
 	justify-content: center;
-	background-color: rgba(229, 250, 25,0.15);
+	background-image: url(../../images/techBackground.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 .page {
 	display: grid;
 	width: 90%;
 	height: 2000px;
-	background-color: rgba(226, 217, 217, 0.18);;
 	grid-template-columns: 10% 80% 10%;
 	grid-template-rows: 4% 5% 10% 50% 30% 40%;
 	
@@ -78,11 +80,7 @@ color: rgb(45, 71, 35);
 font-weight: bold;
 font-size: 26px;
 }
-.HotNews {
-grid-column-start: 2;
-grid-row-start: 2;
-font-family: arial;
-}
+
 .HotTechnologies {
 	grid-column-start: 2;
 	grid-row-start: 3;
