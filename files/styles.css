@@ -24,7 +24,10 @@ body {
 	align-items: center;
 	justify-content: space-around;
 }
-
+.theLOGO {
+	width: 8vw;
+	height: 8vw;
+}
 #TechnologyButton {
 text-decoration: none;
 color: rgb(45, 71, 35);
