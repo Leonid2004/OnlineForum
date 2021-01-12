@@ -16,17 +16,18 @@ body {
 .theHeader {
 	display: flex;
 	flex-direction: row;
-	width: 95%;
+	width: 75%;
 	max-height: 9vh;
 	background: linear-gradient(55deg, #a7ff01, #faff00,#ffc603);
 	grid-column-start: 2;
 	grid-row-start: 1;
 	align-items: center;
 	justify-content: space-around;
+	margin-left: 5vw;
 }
 .theLOGO {
-	width: 8vw;
-	height: 8vw;
+	width: 10vw;
+	height: 10vw;
 }
 #TechnologyButton {
 text-decoration: none;
@@ -85,11 +86,13 @@ font-size: 26px;
 grid-column-start: 2;
 grid-row-start: 2;
 font-family: arial;
+margin-top: 150px;
 }
 .HotTechnologies {
 	grid-column-start: 2;
 	grid-row-start: 3;
 	font-family: cursive, Courier, fantasy, arial;
+	margin-top: 150px;
 }
 @media screen and (max-width: 508px) {
 #TechnologyButton {
