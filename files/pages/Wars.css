@@ -16,6 +16,11 @@ body {
 
 }
 
+.theLOGO {
+	max-width: 75px;
+	max-height: 50px;
+}
+
 .theHeader {
 	display: flex;
 	flex-direction: row;

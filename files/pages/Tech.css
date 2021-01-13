@@ -5,6 +5,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	
 }
 .page {
 	display: grid;
@@ -14,7 +15,10 @@ body {
 	grid-template-rows: 4% 5% 10% 50% 30% 40%;
 	
 }
-
+.theLOGO {
+	max-width: 75px;
+	max-height: 50px;
+}
 .theHeader {
 	display: flex;
 	flex-direction: row;
