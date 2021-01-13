@@ -1,10 +1,8 @@
 body {
 	display: flex;
 	justify-content: center;
-		background-image: url(../../images/blogBackground.gif);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+background-color: rgba(229, 250, 25,0.15);
+	
 }
 .page {
 	display: grid;
@@ -15,7 +13,10 @@ body {
 	grid-template-rows: 4% 5% 10% 50% 30% 40%;
 	
 }
-
+.theLOGO {
+	max-width: 75px;
+	max-height: 50px;
+}
 .theHeader {
 	display: flex;
 	flex-direction: row;
@@ -27,10 +28,7 @@ body {
 	align-items: center;
 	justify-content: space-around;
 }
-.theLOGO {
-	max-width: 75px;
-	max-height: 50px;
-}
+
 #TechnologyButton {
 text-decoration: none;
 color: rgb(45, 71, 35);
