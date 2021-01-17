@@ -1,10 +1,7 @@
 body {
 	display: flex;
 	justify-content: center;
-	background-image: url(../../images/warBackground.gif);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+background-color: rgba(229, 250, 25,0.15);
 }
 .page {
 	display: grid;
